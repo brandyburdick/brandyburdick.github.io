@@ -1,0 +1,60 @@
+/*******************
+ == Intro Section ==
+ ******************/
+
+#intro {
+	font-family: 'Tangerine', cursive;
+}
+#intro > * {       
+	font-size: 2em;
+}
+
+/*******************
+ == Main Section ==
+ *****************
+
+.main {
+	background: grey;
+	height: 20%;
+}
+
+.main p {
+	font-size: 1.5em;
+}
+
+/*******************
+ == Resume Section ==
+ ******************/
+
+ /*************************
+ == Social Media Section ==
+ *************************/
+
+#social-links {
+	border: 3px solid black;
+	border-radius: 6px;
+	width: 100%;
+	height: 10%;
+	background: #000;
+	text-align: center;
+}
+
+#social-links ul li {
+	list-style: none;
+	display: inline-block;
+	font-size: 2em;
+	padding: 0 10px;
+}
+
+#social-links ul li a {
+	color: FFF;
+	text-decoration: none;
+}
+
+ /***********
+ == Colors ==
+ ***********/
+
+ .main p {
+ 	color: orange;
+ }
