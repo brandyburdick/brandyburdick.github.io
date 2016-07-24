@@ -28,7 +28,10 @@ h1 {
 /**************
  == About Me ==
  *************/
-
+.photograph {
+	height: 250px;
+	width: 200px;
+}
 
 
 
