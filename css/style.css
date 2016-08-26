@@ -1,19 +1,54 @@
+
 /*******************
- == Navbar and Jumbotron ==
+ == Body ==
  ******************/
 
-.jumbotron {
-	margin-top: 70px;
-	background-image: url('../jumbotronimage.jpg');
-	color: white;
-	min-height: 800px;
-	}
+#body {
+	padding-top: 50px;
+}
 
-h1 {
+
+/*******************
+ == Navbar  ==
+ ******************/
+
+
+
+.navbar {
+  background: rgba(246, 170, 132, 1);
+}
+
+
+
+/*******************
+ == End Navbar  ==
+ ******************/
+
+/*h1 {
 	position: absolute;
 	top: 230px;
 	right: 200px;
+}*/
+
+section {
+	padding-top: 50px;
+	background: rgb(232,224,209);
+	min-height: 100vh;
+	margin-bottom: 50px;
 }
+
+footer {
+	text-align: center;
+	padding-bottom: 10px !important;
+}
+/***************
+ == Portfolio ==
+ **************/
+
+#projects-section {
+	margin-top: 100px;
+}
+
 
 
 /*****************************
@@ -25,13 +60,10 @@ h1 {
 	list-style: none;
 }
 
+
 /**************
  == About Me ==
  *************/
-.photograph {
-	height: 250px;
-	width: 200px;
-}
 
 
 
@@ -39,12 +71,15 @@ h1 {
  /*************************
  == Social Media Section ==
  *************************/
+/*section#social-links{
+	max-height: 10vh !important;
+}*/
 
 #social-links {
 	border: 3px solid black;
-	border-radius: 6px;
+	border-radius: 0px;
 	width: 100%;
-	height: 10%;
+	height: 10%; 
 	background: #000;
 	text-align: center;
 }

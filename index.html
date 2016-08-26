@@ -3,94 +3,150 @@
 <head>
 	
 	<title>BrandyBurdick.com</title> <!--buy this domain-->
-	
+
+	<!--SLICK LINKS-->
+	<link rel="stylesheet" type="text/css" href="./js/slick/slick.css">
+	<link rel="stylesheet" type="text/css" href="./js/slick/slick-theme.css">
+
+	<!--BOOTSTRAP LINK-->
 	<link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
-		
+	
+	<!--SOCIAL ICON LINKS-->
+	<script src="https://use.fontawesome.com/1d12366518.js"></script>
+
+	<!--CSS STYLESHEET-->
 	<link rel="stylesheet" type="text/css" href="./css/style.css">
 </head>
 
-<!-- NAVBAR -->
+
+
+<body id="top" class="container">
+
+
 <nav class="navbar navbar-default navbar-fixed-top">
-	<div class="container">
-	<a href="#"><button type="button" class="btn btn-default navbar-btn">Home</button></a>
-	<a href="#Skills"><button type="button" class="btn btn-default navbar-btn">Skills</button></a>
-	<a href="#About"><button type="button" class="btn btn-default navbar-btn">About Me</button></a>
-	</div>
+  <div class="container-fluid">
+    <!-- Brand and toggle get grouped for better mobile display -->
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+        <span class="sr-only">Toggle navigation</span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+    </div>
+     <a class="navbar-brand" href="#top" onclick="scrollToTop();return false"> Home</a>
+    
+
+    <!-- Collect the nav links, forms, and other content for toggling -->
+    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+      <ul class="nav navbar-nav">
+	      <li><a id="button3" class="col-md-2" href="#projects-section">Portfolio</a></li>
+	      <li><a id="button2" class="col-md-2" href="#skills">Skills</a></li>
+	      <li><a id="button1" class="col-md-2" href="#about">AboutMe</a></li>
+	      <li><a id="button4" class="col-md-2" href="#social-links">Contact</a></li>
+      </ul>
+      
+      <ul class="nav navbar-nav navbar-right">
+        <li><a href="#">Link</a></li>
+      </ul>
+    </div><!-- /.navbar-collapse -->
+  </div><!-- /.container-fluid -->
 </nav>
 
-<!-- JUMBOTRON -->
-<div class="jumbotron image-responsive">
-	<div class="container">
-		<div class="row">
-				<h1>Brandy Burdick</h1>
-		</div>
-	</div>
-</div>
 
 
-<body class="container">
 
-<!-- 	<section id="intro">
-		<center>
-		<h2>Brandy Burdick</h2>
-		<h3>Freelance Full Stack Developer (in training)</h3>
-		</center>
-	</section> -->
-	
-	<!--SKILLS & TECHNOLOGIES-->
+
+<!--PORTFOLIO-->
+<section id="projects-section">
 	<center>
-		<h2 id="Skills">Skills & Technologies</h2>
+		<h2 id="portfolio">Portfolio</h2>
+	</center>
+</section>
+<!--END PORTFOLIO-->
+	
+
+
+<!--SKILLS & TECHNOLOGIES-->
+<section id="skills-section">
+	<center>
+		<h2 id="skills">Skills & Technologies</h2>
 		<div class="row">	
 			<div class="col-md-6">
 				<div class="skills">
-					<section>
-						<ul>
-							<li>HTML</li>
-							<li>CSS</li>
-							<li>Ruby</li>
-							<li>Ruby on Rails</li>
-						</ul>
-				</section>
+					<ul>
+						<li>HTML</li>
+						<li>CSS</li>
+						<li>Ruby</li>
+						<li>Ruby on Rails</li>
+					</ul>
 				</div>
 			</div>
 			
 			<div class="col-md-6">	
 				<div class="skills">
-					<section>
-						<ul>
-							<li>JQuery</li>
-							<li>Bootstrap</li>
-							<li>Git/Github</li>
-							<li>APIS</li>
-						</ul>
-					</section>
+					<ul>
+						<li>JQuery</li>
+						<li>Bootstrap</li>
+						<li>Git/Github</li>
+						<li>APIs</li>
+					</ul>
 				</div>
 			</div>	
 		</div>
 	</center>
-		
+</section>
+<!--END SKILLS & TECHNOLOGIES-->
+	
 <!--ABOUT ME-->
+<section id="about-section">
 	<center>
-		<h2 id="About">About Me</h2>
+		<h2 id="about">About Me</h2>
 		<div class="row">
 			<p class="col-md-6">Shitty waitress turned super fly developer. I can balance a ridiculous amount of drinks in my hands and also write some super sweet code. Mainly in Ruby but slowly expanding in different programming languages. I love learning anything I don't know (and improving what I do) and I can get a pretty nice buzz off one soy chai.</p>
-			<div class="row">
-				<!-- <img class="photograph col-md-6" src="./brandy.jpg"> -->
-			</div>
 		</div>
 	</center>
+</section>
+<!--END ABOUT ME-->
+
+<!--SOCIAL LINKS-->
+<footer id="social-links">
+	<div>
+		<ul>
+			<li><a href="https://www.facebook.com/brandy.burdick.5" target="_blank"><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
+			<li><a href="https://twitter.com/brandylburdick" target="_blank"><i class="fa fa-twitter" aria-hidden="true"></i>
+			</a></li>
+			<li><a href="https://gitbub.com/brandyburdick" target="_blank"><i class="fa fa-github" aria-hidden="true"></i>
+			</a></li>
+			<li><a href="https://medium.com/@brandylburdick" target="_blank"><i class="fa fa-medium" aria-hidden="true"></i>
+			</a></li>
+			<li><a href="#"><i class="fa fa-linkedin" aria-hidden="true"></i>
+			</a></li>
+		</ul>
+	</div>
+	<br/>
+
+<!--END SOCIAL LINKS-->
 
 
-	<section>
-		<div id="social-links">
-			<ul>
-				<li><a href="https://www.facebook.com/brandy.burdick.5">Facebook</a></li>
-				<li><a href="https://gitbub.com/brandyburdick">Github</a></li>
-			</ul>
-		</div>
-	</section>
+	
+		&copy; Brandy Burdick
+	</footer>
 
+
+
+
+<!--JQUERY SCRIPT-->
+<script src="https://code.jquery.com/jquery-2.2.4.min.js" integrity="sha256-BbhdlvQf/xTY9gja0Dq3HiwQF8LaCRTXxZKRutelT44=" crossorigin="anonymous"></script>
+
+<!--BOOTSTRAP SCRIPT-->
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS" crossorigin="anonymous"></script>
+
+<!--SLICK SCRIPT-->
+<script type="text/javascript" src="./js/slick/slick.min.js"></script>
+
+<!--JAVASCRIPT SCRIPT-->
+<script type="text/javascript" src="js/main.js"></script>
 
 </body>
 </html>
